@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/root/sbt1/twitter/TwitterStream.scala:38:10: not found: type JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m			 (new JSONObject(hashmap).toString())[0m
+[0m[[0m[31merror[0m] [0m[0m			      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
