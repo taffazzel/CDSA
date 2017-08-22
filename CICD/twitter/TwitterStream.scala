@@ -18,7 +18,7 @@ object TwitterStream {
                 //sc.setLogLevel("WARN")
                 val index_name = "twitter"
                 val type_name = "Spark"
-                val ssc = new StreamingContext(conf, Seconds(5))
+                val ssc = new StreamingContext(conf, Seconds(6))
                 System.setProperty("twitter4j.oauth.consumerKey", "pIhJP9BBX7QDkMrieXWOUcEv5")
                 System.setProperty("twitter4j.oauth.consumerSecret", "YGUIPrmTGCyoO40wKCv3PboBpdwkgmTxw1iytjHfwlmjQfOPvu")
                 System.setProperty("twitter4j.oauth.accessToken", "1627712238-HlOCH9yPSyCrOsATa7QRCCvTrZrKfmESw754cny")
